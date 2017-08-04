@@ -23,11 +23,6 @@ class ListTableViewController : UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "List"
-        let firstData = LyricsListData(title: "주님 다시오실 때까지", time: "today", typeArr: [LyricsData(type:"<V1>", lyrics:"벌스"), LyricsData(type:"<C>", lyrics:"코러스"), LyricsData(type:"<V2>", lyrics:"벌스2"), LyricsData(type:"<P.C>", lyrics:"프리 코러스"), LyricsData(type:"<B>", lyrics:"브릿지")], lyricsArr: [LyricsData(type:"<V1>", lyrics:"벌스"), LyricsData(type:"<C>", lyrics:"코러스"), LyricsData(type:"<V2>", lyrics:"벌스2"), LyricsData(type:"<C>", lyrics:"코러스"), LyricsData(type:"<P.C>", lyrics:"프리 코러스"), LyricsData(type:"<B>", lyrics:"브릿지")])
-        
-        let secondData = LyricsListData(title: "나는 주의 친구", time: "today", typeArr: [LyricsData(type:"<V1>", lyrics:"벌스"), LyricsData(type:"<C>", lyrics:"코러스"), LyricsData(type:"<V2>", lyrics:"벌스2"), LyricsData(type:"<P.C>", lyrics:"프리 코러스"), LyricsData(type:"<B>", lyrics:"브릿지")], lyricsArr: [LyricsData(type:"<V1>", lyrics:"벌스"), LyricsData(type:"<C>", lyrics:"코러스"), LyricsData(type:"<V2>", lyrics:"벌스2"), LyricsData(type:"<C>", lyrics:"코러스"), LyricsData(type:"<P.C>", lyrics:"프리 코러스"), LyricsData(type:"<B>", lyrics:"브릿지")])
-        self.lyricsArr.append(firstData)
-        self.lyricsArr.append(secondData)
         self.tableView.reloadData()
     }
     

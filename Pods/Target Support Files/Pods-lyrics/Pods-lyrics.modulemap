@@ -1,0 +1,6 @@
+framework module Pods_lyrics {
+  umbrella header "Pods-lyrics-umbrella.h"
+
+  export *
+  module * { export * }
+}
